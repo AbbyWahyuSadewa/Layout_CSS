@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teman Dekat Saya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: #eee;
+            min-height: 50px;
+            text-align: center;
+        }
+        .thubnail {
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            width: 225px;
+            margin: 10px;
+            float: right;
+        }
+        .thubnail img {
+            width: 100%;
+        }
+        .logo img {
+            width: 200px;
+        }
+        .menu ul {
+            padding: 0;
+        }
+        .menu ul li {
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+        }
+        .menu ul li:hover ul.submenu {
+            display: block;
+            z-index: 2;
+        }
+        .menu ul li a {
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        ul.submenu {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            text-align: left;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            display: none;
+        }
+        ul.submenu li {
+            display: block;
+        }
+        ul.submenu li a {
+            display: block;
+            padding: 5px 10px;
+        }
+        .jumbotron {
+            font-family: 'Raleway', sans-serif;
+            width: 100%;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+            background-color: #aaa;
+            background-image: url(https://www.ginx.tv/uploads/genshin_impact_1.2/genshin_Impact_v1.3_banner.png);
+            background-size: cover;
+            position: relative;
+        }
+        .jumbotron h2.jumbotron p {
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.5;
+        }
+        .content {
+            background-color: #ddd;
+            min-height: 500px;
+            overflow: auto;
+        }
+        .footer {
+            background-color: #ddd;
+            min-height: 50px;
+            padding: 20px;
+            text-align: center;
+        }  
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="https://smkmuh1-skh.sch.id/wp-content/uploads/2020/12/Logo-smkmutuharjo-web-544.png" width="300">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a>
+                        <ul class="submenu">
+                            <li><a href="keahlian.html">Keahlian</a></li>
+                            <li><a href="teman-dekat.html">Teman Dekat</a></li>
+                            <li><a href="portofolio.html">Portofolio</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <div class="overlay"></div>
+            <h2>Halo Selamat Datang Di Website Saya</h2>
+            <p>website ini adalah project layouting pertama saya yang 
+               berisi daftar teman kelas dan profile saya</p>
+            <p>Setiap orang memiliki kelebihan dan kelemahan masing-masing. 
+               Kita tidak bisa hebat dalam semua hal</p>  
+            <p>Awali dengan "LEARN" dan selanjutnya akhiri dengan buang
+               huruf "L" </p>    
+        </div>
+        <div class="content">
+            <h2>Teman Dekat</h2>
+            <div class="thubnail">
+                <!-- Foto Kalian Bisa Berupa Alamat URL atau Dari Assets Masing2 -->
+                <img src="102904907_p0_square1200.jpg" width="100%" height="100%">
+                <h2>Dedek Nahida</h2>
+                <!-- Kelas Kalian -->
+                <p>Kelas XI PPLG 1</p>
+            </div>
+            <div class="thubnail">
+                <!-- Foto Kalian Bisa Berupa Alamat URL atau Dari Assets Masing2 -->
+                <img src="watashi wa.jpg" width="230px" height="225px">
+                <h2>Abby Wahyu Sadewa</h2>
+                <!-- Kelas Kalian -->
+                <p>Kelas XI PPLG 1</p>
+            </div>
+            <div class="thubnail">
+                <!-- Foto Kalian Bisa Berupa Alamat URL atau Dari Assets Masing2 -->
+                <img src="diona.jpg" width="100%" height="100%">
+                <h2>Dedek Diona</h2>
+                <!-- Kelas Kalian -->
+                <p>Kelas XI PPLG 1</p>
+            </div>
+            <div class="thubnail">
+                <!-- Foto Kalian Bisa Berupa Alamat URL atau Dari Assets Masing2 -->
+                <img src="WhatsApp Image 2022-12-11 at 09.47.56.jpg" width="100%" height="100%">
+                <h2>Dedek Qiqi</h2>
+                <!-- Kelas Kalian -->
+                <p>Kelas XI PPLG 1</p>
+            </div>
+            <div class="thubnail">
+                <!-- Foto Kalian Bisa Berupa Alamat URL atau Dari Assets Masing2 -->
+                <img src="klee.jpeg" width="100%" height="100%">
+                <h2>Dedek Klee</h2>
+                <!-- Kelas Kalian -->
+                <p>Kelas XI PPLG 1</p>
+            </div>
+            <div class="thubnail">
+                <!-- Foto Kalian Bisa Berupa Alamat URL atau Dari Assets Masing2 -->
+                <img src="sayu.jpg" width="100%" height="100%">
+                <h2>Dedek Sayu</h2>
+                <!-- Kelas Kalian -->
+                <p>Kelas XI PPLG 1</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>copyright 2023 Abby Wahyu Sadewa</p>
+        </div>
+    </div>    
+</body>
+
+</html>
